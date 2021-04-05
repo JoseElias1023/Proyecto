@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Editar</title>
+    <link rel="stylesheet" href="../styles/zen-css.css">
+    <link rel="stylesheet" href="../styles/my-css.css">
+  </head>
+  <body>
+
+    <form action="" id="editar">
+      <label for="cod">Cod_Producto</label>
+      <input type="text" id="codProducto" disabled><br>
+
+      <label for="nomprod">Nom_Producto</label>
+      <input type="text" id="nomProducto"><br>
+
+      <select name="select">
+        <option value="value1">Value 1</option>
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+      </select><br>
+
+      <label for="cantidad">Cantidad</label>
+      <input type="text" id="cantidad"><br>
+
+      <label for="existencia">Existencia</label>
+      <input type="text" id="existencia"><br>
+
+      <input type="submit" id="actEdit" value="UPDATE/EDIT">
+      <input type="submit" id="Solicitar" value="REQUEST">
+    </form>
+
+    <script>
+      require('./segundo.js')
+    </script>
+  </body>
+</html>
